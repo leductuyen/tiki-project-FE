@@ -1,0 +1,32 @@
+.Banner {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.Styles {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.Left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 824px;
+    height: 274px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.Right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 408px;
+    height: 274px;
+    background: rgb(148, 191, 255);
+    border-radius: 4px;
+    overflow: hidden;
+}

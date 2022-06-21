@@ -1,0 +1,25 @@
+.Detail {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.Left {
+    padding: 16px 0px 16px 16px;
+    width: 444px;
+    height: 444px;
+}
+.Center {
+    margin: 0px 12px;
+    width: 1px;
+    background: rgb(242, 242, 242);
+    flex-shrink: 0;
+}
+.Right {
+    flex: 1 1 0%;
+}

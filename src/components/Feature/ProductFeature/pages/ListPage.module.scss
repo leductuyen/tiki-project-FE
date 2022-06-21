@@ -1,0 +1,24 @@
+.Container {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ContentWrap {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.Sidebar {
+    background: rgb(255, 255, 255);
+    width: 248px;
+    border-radius: 4px 0px 0px 4px;
+    overflow: hidden;
+    padding: 0px 8px 12px 16px;
+}
+.ListPage {
+    width: 991px;
+    border-radius: 0px 4px 4px 0px;
+}

@@ -1,0 +1,26 @@
+.Sidebar {
+    padding: 0px 8px 12px 16px;
+}
+.Title {
+    margin: 0px;
+    line-height: 20px;
+    display: block;
+    color: rgb(36, 36, 36);
+    font-size: 13px;
+    padding: 14px 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.Category li {
+    list-style: none;
+}
+
+.CategoryName {
+    font-size: 13px;
+    color: rgb(36, 36, 36);
+    padding: 0px 0px 8px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

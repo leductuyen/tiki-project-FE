@@ -1,0 +1,23 @@
+.Category {
+    background-color: rgb(255, 255, 255);
+    height: 44px;
+}
+.Container {
+    width: 1240px;
+    padding: 15px 0px;
+    margin: 0px auto;
+    position: relative;
+    height: 44px;
+}
+.Slider {
+    display: inline-block;
+    transition: all 0.5s ease-in-out 0s;
+    white-space: nowrap;
+    & a {
+        padding: 0 16px;
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(56, 56, 61);
+        display: inline-block;
+    }
+}

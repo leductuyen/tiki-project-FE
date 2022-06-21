@@ -1,0 +1,41 @@
+.Name {
+    margin: 0px 0px 4px;
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    word-break: break-word;
+}
+.ShortDescription {
+    margin: 0px;
+    font-weight: 400;
+    display: contents;
+    font-size: 13px;
+}
+.Price {
+    display: flex;
+    margin-top: 20px;
+}
+.SalePrice {
+    font-size: 32px;
+    line-height: 40px;
+    margin-right: 8px;
+    font-weight: 500;
+}
+.OriginalPrice {
+    color: rgb(128, 128, 137);
+    text-decoration: line-through;
+    font-size: 14px;
+    line-height: 40px;
+}
+.PromotionPercent {
+    font-weight: 400;
+    margin-left: 8px;
+    border: 1px solid rgb(255, 66, 78);
+    border-radius: 2px;
+    background-color: rgb(255, 240, 241);
+    color: rgb(255, 66, 78);
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0px 4px;
+}

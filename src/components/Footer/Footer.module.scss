@@ -1,0 +1,49 @@
+.Footer {
+    margin-top: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(128, 128, 137);
+    background-color: white;
+}
+.Styles {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Support {
+    width: 268px;
+    & h4 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        color: rgb(56, 56, 61);
+        margin-bottom: 12px;
+        margin-top: 0px;
+    }
+    & h5 {
+        display: block;
+        margin-bottom: 8px;
+        color: rgb(128, 128, 137);
+        font-size: 12px;
+    }
+    & p {
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(128, 128, 137);
+        margin-bottom: 12px;
+        margin-top: 0px;
+        & img {
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            vertical-align: middle;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
